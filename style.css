@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient(#3ae5e8 0%, #3a7de8 100%);
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+.menu {
+    list-style: none;
+    font-family: 'Indie Flower', cursive;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: cornflowerblue;
+}
+
+#buttonp:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
+
+#buttonp {
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    /* Green */
+}
+
+#insp1 {
+    width: 500px;
+    height: 500px;
+}
+
+#insp2 {
+    width: 500px;
+    height: 500px;
+}
+
+#insp1:hover {
+    transform: scale(1.1);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#insp2:hover {
+    transform: scale(1.1);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
