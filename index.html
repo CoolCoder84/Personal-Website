@@ -7,6 +7,9 @@
     <script src="main.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -41,27 +44,62 @@
         <a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi" target="_blank">
             <img id="insp2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlR33k9AAgJGCCnAyDVkFjRwYS-hU59tVqmQ&usqp=CAU"> </a>
     </section>
-    <section id="work">
-        <section id="apps">
-            <h1>Apps</h1>
-            <div class="line"></div>
-            <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/pA3INWozd64IrmOTmcsEx-FKt6U9r-xv2nma4gJFxRc/embed"></iframe>
-            <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/3CdiMQHoBKFuADGIeO1a0lLHICekvqr_ayQzJSfah7I/embed"></iframe>
-            <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/aO4jR4rF1kvn8EjaeFxTvOrdMJYEivE7HnUrn5tQyiw/embed"></iframe>
-        </section>
-        <section id="games">
-            <h1>Games</h1>
-            <div class="line"></div>
-            <a href="https://studio.code.org/projects/flappy/eyq2Wd7mVXTQ_5A6HYrbfIw7PgkYs4_BZejygIy5hrQ" target="_blank">
-                <img src="Game%201.png">
-            </a>
-            <a href="https://studio.code.org/projects/playlab/20s7DzAYocsgsBTrSsRL1NaP51mFILaVDo3baxgf-po" target="_blank">
-                <img src="Game%202.png"></a>
-        </section>
-        <section id="chatbot">
-            <h1>Chatbot</h1>
-            <div class="line"></div>
+    <div class="container">
+        <section id="work">
+            <section id="apps">
+                <h1>Apps</h1>
+                <div class="line"></div>
+                <div id="myCarousel" class="carousel slide">
+                    <div class=" carousel-inner">
+                        <div class="item active">
+                            <center>
+                                <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/pA3INWozd64IrmOTmcsEx-FKt6U9r-xv2nma4gJFxRc/embed"></iframe>
+                                <div class="carousel-content">
+                                    <p>Music Player</p>
+                                </div>
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/3CdiMQHoBKFuADGIeO1a0lLHICekvqr_ayQzJSfah7I/embed"></iframe>
 
-        </section>
+                                <div class="carousel-content">
+                                    <p>Ice-cream maker</p>
+                                </div>
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/aO4jR4rF1kvn8EjaeFxTvOrdMJYEivE7HnUrn5tQyiw/embed"></iframe>
+                                <div class="carousel-content">
+                                    <p>Text to sound</p>
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
 
-</body></html>
+
+            </section>
+    </div>
+    <section id="games">
+        <h1>Games</h1>
+        <div class="line"></div>
+        <a href="https://studio.code.org/projects/flappy/eyq2Wd7mVXTQ_5A6HYrbfIw7PgkYs4_BZejygIy5hrQ" target="_blank">
+            <img src="Game%201.png">
+        </a>
+        <a href="https://studio.code.org/projects/playlab/20s7DzAYocsgsBTrSsRL1NaP51mFILaVDo3baxgf-po" target="_blank">
+            <img src="Game%202.png"></a>
+    </section>
+    <section id="chatbot">
+        <h1>Chatbot</h1>
+        <div class="line"></div>
+        <iframe allow="microphone;" width="350px" height="500px" src="https://console.dialogflow.com/api-client/demo/embedded/b53bd41b-92f9-4227-a074-408771b256f2">
+        </iframe>
+    </section>
+            <section id="con">
+            <h1>Contacts</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3769.610795047466!2d72.88875115387108!3d19.124722909682188!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWhitehat%20Education%20Technology%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1607619127159!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </section>
+        </section>
+    </div>
